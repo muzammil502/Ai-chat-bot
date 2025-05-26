@@ -1,0 +1,68 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="from .css">
+<body>
+    <form action="">
+        <h1>learning forms </h1>
+    <div>
+        <label for="name">Name</label><br>
+        <input type="text" placeholder="ENTER YOUR NAME" required>
+    </div>
+    <br>
+    <div>
+        <label for="name">Address</label><br>
+        <input type="text" placeholder="ENTER YOUR Address">
+    </div><br>
+    <div>
+        <label for="phone">phone</label><br>
+        <input id="phone" type="tel" placeholder="ENTER YOUR phone ">
+    </div>
+    <div>
+        <label for="pass">Passaword</label><br>
+        <input type="password"  id="pass" placeholder="password">
+    </div>
+    <div>
+        <label for="gender">select your gender</label><br>
+        <select  id="gender">
+                <option value="pakistan" disabled selected>Pakistan</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="none">none</option>
+        </select>
+    </div>
+    <br>
+    <hr>
+    <label for="country">Enter your country below</label>
+<br>
+
+<input type="radio" id="pk" name="country" value="pk">
+<label for="pk">Pakistan</label>
+<br>
+
+<input type="radio" id="uk" name="country" value="uk">
+<label for="uk">United Kingdom</label>
+<br>
+
+<input type="radio" id="rs" name="country" value="rs">
+<label for="rs">Russia</label>
+<br>
+
+<input type="radio" id="ch" name="country" value="ch">
+<label for="ch">China</label>
+<br>
+<label for="comment"your feedback below></label>
+<textarea name="feedback"  id="comment" cols="10" rows="5"></textarea>
+<br>
+<label for="agreement">Policy agreement</label>
+<input type="checkbox" name="Policy" id="agreement">
+<br>
+<input type="submit" value="submit">
+    </form>
+</body>
+</html>
